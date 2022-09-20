@@ -1,5 +1,5 @@
 function primeORnot(num){
-let count=1;  //instead of 1 use 0
+let count=0;  //instead of 1 use 0
 for(let i=0;i<=num;i++){
   if(num%i==0){
     count--;   // use ++
